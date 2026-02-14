@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-Thin.eot');
+    src: local('Tolyer No.2 Thin'), local('TolyerNo2-Thin'),
+        url('TolyerNo2-Thin.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-Thin.woff2') format('woff2'),
+        url('TolyerNo2-Thin.woff') format('woff'),
+        url('TolyerNo2-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-MediumItalic.eot');
+    src: local('Tolyer No.2 Medium Italic'), local('TolyerNo2-MediumItalic'),
+        url('TolyerNo2-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-MediumItalic.woff2') format('woff2'),
+        url('TolyerNo2-MediumItalic.woff') format('woff'),
+        url('TolyerNo2-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-Italic.eot');
+    src: local('Tolyer No.2 Italic'), local('TolyerNo2-Italic'),
+        url('TolyerNo2-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-Italic.woff2') format('woff2'),
+        url('TolyerNo2-Italic.woff') format('woff'),
+        url('TolyerNo2-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-Medium.eot');
+    src: local('Tolyer No.2 Medium'), local('TolyerNo2-Medium'),
+        url('TolyerNo2-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-Medium.woff2') format('woff2'),
+        url('TolyerNo2-Medium.woff') format('woff'),
+        url('TolyerNo2-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-Regular.eot');
+    src: local('Tolyer No.2'), local('TolyerNo2-Regular'),
+        url('TolyerNo2-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-Regular.woff2') format('woff2'),
+        url('TolyerNo2-Regular.woff') format('woff'),
+        url('TolyerNo2-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-Bold.eot');
+    src: local('Tolyer No.2 Bold'), local('TolyerNo2-Bold'),
+        url('TolyerNo2-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-Bold.woff2') format('woff2'),
+        url('TolyerNo2-Bold.woff') format('woff'),
+        url('TolyerNo2-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-ThinItalic.eot');
+    src: local('Tolyer No.2 Thin Italic'), local('TolyerNo2-ThinItalic'),
+        url('TolyerNo2-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-ThinItalic.woff2') format('woff2'),
+        url('TolyerNo2-ThinItalic.woff') format('woff'),
+        url('TolyerNo2-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-BoldItalic.eot');
+    src: local('Tolyer No.2 Bold Italic'), local('TolyerNo2-BoldItalic'),
+        url('TolyerNo2-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-BoldItalic.woff2') format('woff2'),
+        url('TolyerNo2-BoldItalic.woff') format('woff'),
+        url('TolyerNo2-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-LightItalic.eot');
+    src: local('Tolyer No.2 Light Italic'), local('TolyerNo2-LightItalic'),
+        url('TolyerNo2-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-LightItalic.woff2') format('woff2'),
+        url('TolyerNo2-LightItalic.woff') format('woff'),
+        url('TolyerNo2-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tolyer No.2';
+    src: url('TolyerNo2-Light.eot');
+    src: local('Tolyer No.2 Light'), local('TolyerNo2-Light'),
+        url('TolyerNo2-Light.eot?#iefix') format('embedded-opentype'),
+        url('TolyerNo2-Light.woff2') format('woff2'),
+        url('TolyerNo2-Light.woff') format('woff'),
+        url('TolyerNo2-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
