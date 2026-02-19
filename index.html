@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style .css" />
+    <link rel="shortcut icon" href="/favicone/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Starbucks Coffee Company</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="/Image/Starbucks_Corporation_Logo_2011.svg" alt="Starbucks" />
+          </a>
+        </div>
+
+        <ul class="navbar-nav-left">
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="rewards.html">Rewards</a>
+          </li>
+          <li>
+            <a href="giftcards.html">Gift Cards</a>
+          </li> 
+        </ul>
+
+        <ul class="navbar-nav-right">
+          <li>
+            <!-- <a href="#">
+              <img src="img/marker.svg" alt="" /> -->
+              <span><i class="fa-solid fa-location-dot"></i> Find a store</span>
+            </a>
+          </li>
+          <li><a href="https://www.starbucks.com/account/signin?ReturnUrl=%2F"><button class="btn btn-dark-outline">Sign in</button></a></li>
+          <li><a href="https://www.starbucks.com/account/create"><button class="btn btn-dark">Join now</button></a></li>
+        </ul>
+
+
+        <!-- Hamburger Menu -->
+        <button type="button" class="hamburger" id="menu-btn">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+      <ul>
+        <li>
+          <a href="menu.html">Menu</a>
+        </li>
+        <li>
+          <a href="rewards.html">Rewards</a>
+        </li>
+        <li>
+          <a href="giftcards.html">Gift Cards</a>
+        </li>
+      </ul>
+
+      <div class="mobile-menu-bottom">
+        <button class="btn btn-dark-outline">Sign in</button>
+        <button class="btn btn-dark">Join now</button>
+        <div>
+          <a href="#">
+            <img src="img/marker.svg" alt="" />
+            <span>Find a store</span>
+          </a>
+        </div>
+      </div>
+    </div>
+     <hr class="margin_bottom">
+        <!-- Box B: Matcha -->
+    <section class="box box-b bg-extra grid-col-2">
+      <img src="/Image/137-98046.jpg" alt="Matcha drinks" />
+      <div class="box-text">
+        <h2 class="text-xl">Bold new matcha menu</h2>
+        <p class="text-md">
+          Meet the matcha edit: delicious matcha made from shade-grown green tea leaves, layered with flavors of banana bread, double berry and Dubai chocolate.
+        </p>
+        <a href="#" class="btn-pill btn-pill-green">Order from the matcha menu</a>
+      </div>
+    </section>
+
+    <!-- Box C: Caramel Protein -->
+    <section class="box box-c bg-warm-beige grid-col-2 grid-reversed">
+      <img src="/Image/137-98053.webp" alt="Caramel Protein drinks" />
+      <div class="box-text">
+        <h2 class="text-xl">Caramel protein is here</h2>
+        <p class="text-md">
+          Power up with the new Caramel Protein Latte and Caramel Protein Matcha. Handcrafted with Protein-boosted Milk for up to 31 grams of protein per grande. Available hot, iced and with sugar-free syrup.
+        </p>
+        <a href="#" class="btn-pill btn-pill-outline-black">Explore caramel protein</a>
+      </div>
+    </section>
+
+     <!-- Box D: Free Drink -->
+    <section class="box box-d bg-warm-beige grid-col-2">
+      <img src="/Image/137-99412.jpg" alt="Starbucks drink" />
+      <div class="box-text">
+        <h2 class="text-xl">Free drink? It's yours.</h2>
+        <p class="text-md">
+          When you join, enjoy a free handcrafted drink with purchase. It's our way of welcoming you to Starbucks® Rewards during your first week.*
+        </p>
+        <a href="#" class="btn-pill btn-pill-green">Join now</a>
+      </div>
+    </section>
+    
+    <!-- Box E: Bakery -->
+    <section class="bakery-section">
+      <!-- Left Column: Text -->
+      <div class="bakery-text">
+        <h2 class="text-xl">A new era of bakery</h2>
+        <p class="text-md text-white">
+          Six new crave-worthy treats have arrived, blending global inspiration and nostalgic flavors. Find them in our refreshed bakery case.
+        </p>
+        <a href="#" class="btn-pill btn-pill-outline-white">Order now</a>
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="bakery-img">
+        <img src="/Image/137-99432.webp" alt="Bakery items" />
+      </div>
+    </section>
+
+    <!-- Team USA Banner -->
+    <section class="team-usa-banner">
+      <div class="team-usa-text">
+        Starbucks is proud to support Team USA in the Olympic and Paralympic Winter Games Milano Cortina 2026
+      </div>
+      
+      <div class="team-usa-logos">
+        <!-- Logo Group 1: USA Flag + Olympic Rings -->
+        <div class="team-usa-logo-group">
+           <!-- Using placeholder images/icons since I don't have the exact SVGs. 
+                I will use FontAwesome for visual approximation or text if needed. 
+                But user wants it to look like screenshot. 
+                I'll use a styled div to represent the flag and FontAwesome for rings if possible, 
+                or just placeholders that look decent. -->
+           <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="USA Flag" style="width: 50px; margin-bottom: 5px;">
+           <i class="fa-solid fa-rings-wedding" style="font-size: 2rem; display: none;"></i> <!-- FontAwesome doesn't have olympic rings free usually -->
+           <!-- Fallback for Olympic Rings: 5 circles CSS or just an image if available. 
+                Since I don't have the image, I'll use a text representation or simple circles -->
+           <div style="display: flex; gap: 2px;">
+             <div style="width: 12px; height: 12px; border: 2px solid white; border-radius: 50%;"></div>
+             <div style="width: 12px; height: 12px; border: 2px solid white; border-radius: 50%;"></div>
+             <div style="width: 12px; height: 12px; border: 2px solid white; border-radius: 50%;"></div>
+           </div>
+           <div style="display: flex; gap: 2px; margin-top: -6px;">
+             <div style="width: 12px; height: 12px; border: 2px solid white; border-radius: 50%;"></div>
+             <div style="width: 12px; height: 12px; border: 2px solid white; border-radius: 50%;"></div>
+           </div>
+        </div>
+
+        <div class="team-usa-divider"></div>
+
+        <!-- Middle: Starbucks Text -->
+        <div class="team-usa-starbucks">
+          <h2>STARBUCKS®</h2>
+          <span>Official Partner of Team USA</span>
+        </div>
+
+        <div class="team-usa-divider"></div>
+
+        <!-- Logo Group 2: USA Flag + Paralympic Agitos -->
+        <div class="team-usa-logo-group">
+          <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="USA Flag" style="width: 50px; margin-bottom: 5px;">
+          <!-- Fallback for Agitos -->
+           <div style="display: flex; gap: 2px;">
+             <div style="width: 10px; height: 20px; border-radius: 100% 0 0 0; border-top: 3px solid white; border-left: 3px solid white; transform: rotate(45deg);"></div>
+             <div style="width: 10px; height: 20px; border-radius: 100% 0 0 0; border-top: 3px solid white; border-left: 3px solid white; transform: rotate(45deg);"></div>
+             <div style="width: 10px; height: 20px; border-radius: 100% 0 0 0; border-top: 3px solid white; border-left: 3px solid white; transform: rotate(45deg);"></div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer-text">
+      *Valid for new Starbucks Rewards members for 7 days from sign up. Coupon will be available in the offers tab of your Starbucks app following sign up and may take up to 48 hours to arrive. Good at participating U.S. stores for a handcrafted menu-sized beverage ($8 max value) with qualifying purchase. Qualifying purchase excludes alcohol, Starbucks Card and Starbucks Cards reloads. Limit one. Cannot be combined with other offers or discounts. Excludes delivery services. Sign up by 3/31/2026.
+    </div>
+
+
+
+  <div class="divider"></div>
+
+      <footer class="footer1">
+       <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>About Us</h4>
+  	 			<ul>
+  	 				<li><a href="#">Our Company</a></li>
+  	 				<li><a href="#">Our Coffee</a></li>
+  	 				<li><a href="#">About Starbucks</a></li>
+  	 				<li><a href="#">Starbucks Archive</a></li>
+  	 				<li><a href="#">Investor Relations</a></li>
+  	 				<li><a href="#">Customer Service</a></li>
+  	 				<li><a href="#">Contact Us</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Careers</h4>
+  	 			<ul>
+  	 				<li><a href="#">Culture and Values</a></li>
+  	 				<li><a href="#">Belonging at Starbucks</a></li>
+  	 				<li><a href="#">College Achievement Plan</a></li>
+  	 				<li><a href="#">Alumni Community</a></li>
+  	 				<li><a href="#">U.S. Careers</a></li>
+  	 				<li><a href="#">International Careers</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Social Impact</h4>
+  	 			<ul>
+  	 				<li><a href="#">Communities</a></li>
+  	 				<li><a href="#">Starbucks Foundation</a></li>
+  	 				<li><a href="#">Sustainability</a></li>
+  	 				<li><a href="#">Environmental and Social Impact Reporting</a></li>
+  	 			</ul>
+  	 		</div>  
+        <div class="footer-col">
+  	 			<h4>For Business Partners</h4>
+  	 			<ul>
+  	 				<li><a href="#">Landlord Support Center</a></li>
+  	 				<li><a href="#">Suppliers</a></li>
+  	 				<li><a href="#">Corporate Gift Card Sales</a></li>
+  	 				<li><a href="#">Office and Foodservice Coffee</a></li>
+  	 			</ul>
+  	 		</div>
+        <div class="footer-col">
+  	 			<h4>Order and Pick Up</h4>
+  	 			<ul>
+  	 				<li><a href="#">Order on the App</a></li>
+  	 				<li><a href="#">Order on the Web</a></li>
+  	 				<li><a href="#">Delivery</a></li>
+  	 				<li><a href="#">Order and Pick Up Options</a></li>
+  	 				<li><a href="#">Explore and Find Coffee for Home</a></li>
+  	 			</ul>
+  	 		</div> 
+
+  <div class="divider_bottom"></div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social">
+          <a href="https://spotify.com">
+            <img src="/logo icon/social-spotify.svg" alt="" />
+          </a>
+          <a href="https://facebook.com">
+            <img src="/logo icon/social-facebook.svg" alt="" />
+          </a>
+          <a href="https://pinterest.com">
+            <img src="/logo icon/social-pinterest.svg" alt="" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="/logo icon/social-instagram.svg" alt="" />
+          </a>
+          <a href="https://youtube.com">
+            <img src="/logo icon/social-youtube.svg" alt="" />
+          </a>
+          <a href="https://twitter.com">
+            <img src="/logo icon/social-twitter.svg" alt="" />
+          </a>
+        </div>
+        <span>Privacy Notice</span> <br> <br>
+        <span>Consumer Health Privacy Notice</span> <br> <br>
+        <span>Terms of Use</span> <br> <br>
+        <span>Do Not Share My Personal Information</span> <br> <br>
+        <span>CA Supply Chain Act</span> <br> <br>
+        <span>Accessibility</span> <br> <br>
+        <span>Cookie Preferences</span> <br> <br>
+
+        <p>© 2025 Starbucks Coffee Company. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+    </body>
+    </html>
